@@ -22,7 +22,7 @@ const AddRedSocial = () => {
     const userid = localStorage.getItem("idusuario")
     var auth = "Bearer "
     ////var url = "http://localhost:8000/users/"
-    var url = "http://localhost:5500/users/"
+    var url = "https://bighug.ujaen.es/api/users/"
 
 
     const Validation = () =>{
