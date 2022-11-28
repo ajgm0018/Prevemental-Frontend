@@ -58,8 +58,8 @@ const AddRedSocial = () => {
         auth = auth + token
         ////url = url + userid + "/social-networks/" + redsocial
         url = url + userid + "/social-networks"
-        console.log("Auth: " + auth)
-        console.log("Url: " + url)
+        //console.log("Auth: " + auth)
+        //console.log("Url: " + url)
     }, [email, redsocial, password]);
 
     //** -- Tratamiento cuando se envía formulario --
